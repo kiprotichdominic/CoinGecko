@@ -23,24 +23,24 @@ function Navbar() {
                                 <div className="hidden sm:block sm:ml-6">
                                     <div className="flex space-x-4">
                                         {/* Current: "bg-gray-900 text-black", Default: "text-black font-bold " */}
-                                        <a href="#" className="text-black font-bold  px-3 py-2 rounded-md text-sm font-medium hover:bg-custom-blue hover:text-white">
+                                        <a href="#" className="text-black font-bold  px-3 py-2 rounded-md text-sm hover:bg-custom-blue custom-hover_color">
                                             Homepage
                                         </a>
                                         <a
                                             href="#"
-                                            className="text-black font-bold  px-3 py-2 rounded-md text-sm font-medium hover:bg-custom-blue hover:text-white"
+                                            className="text-black font-bold  px-3 py-2 rounded-md text-sm hover:bg-custom-blue custom-hover_color"
                                         >
                                             Markets
                                         </a>
                                         <a
                                             href="#"
-                                            className="text-black font-bold  px-3 py-2 rounded-md text-sm font-medium hover:bg-custom-blue hover:text-white"
+                                            className="text-black font-bold  px-3 py-2 rounded-md text-sm hover:bg-custom-blue custom-hover_color"
                                         >
                                             Blog
                                         </a>
                                         <a
                                             href="#"
-                                            className="text-black font-bold  px-3 py-2 rounded-md text-sm font-medium hover:bg-custom-blue hover:text-white"
+                                            className="text-black font-bold  px-3 py-2 rounded-md text-sm hover:bg-custom-blue custom-hover_color"
                                         >
                                             Trade Signals
                                         </a>
@@ -143,28 +143,21 @@ function Navbar() {
                             <Disclosure.Button
                                 as="a"
                                 href="#"
-                                className="bg-gray-900 text-black block px-3 py-2 rounded-md text-base font-medium hover:bg-custom-blue hover:text-white"
-                            >
-                                Dashboard
-                            </Disclosure.Button>
-                            <Disclosure.Button
-                                as="a"
-                                href="#"
-                                className="text-black font-bold  block px-3 py-2 rounded-md text-base font-medium hover:bg-custom-blue hover:text-white"
+                                className="text-black font-bold  block px-3 py-2 rounded-md text-base hover:bg-custom-blue custom-hover_color"
                             >
                                 Team
                             </Disclosure.Button>
                             <Disclosure.Button
                                 as="a"
                                 href="#"
-                                className="text-black font-bold  block px-3 py-2 rounded-md text-base font-medium hover:bg-custom-blue hover:text-white"
+                                className="text-black font-bold  block px-3 py-2 rounded-md text-base hover:bg-custom-blue custom-hover_color"
                             >
                                 Projects
                             </Disclosure.Button>
                             <Disclosure.Button
                                 as="a"
                                 href="#"
-                                className="text-black font-bold  block px-3 py-2 rounded-md text-base font-medium hover:bg-custom-blue hover:text-white"
+                                className="text-black font-bold  block px-3 py-2 rounded-md text-base hover:bg-custom-blue custom-hover_color"
                             >
                                 Calendar
                             </Disclosure.Button>
@@ -179,8 +172,8 @@ function Navbar() {
                                     />
                                 </div>
                                 <div className="ml-3">
-                                    <div className="text-base font-medium text-black">Tom Cook</div>
-                                    <div className="text-sm font-medium text-gray-400">tom@example.com</div>
+                                    <div className="text-base text-black">Tom Cook</div>
+                                    <div className="text-sm text-gray-400">tom@example.com</div>
                                 </div>
                                 <button
                                     type="button"
@@ -194,21 +187,21 @@ function Navbar() {
                                 <Disclosure.Button
                                     as="a"
                                     href="#"
-                                    className="block px-3 py-2 rounded-md text-base font-medium text-gray-400 "
+                                    className="block px-3 py-2 rounded-md text-base text-gray-400 "
                                 >
                                     Your Profile
                                 </Disclosure.Button>
                                 <Disclosure.Button
                                     as="a"
                                     href="#"
-                                    className="block px-3 py-2 rounded-md text-base font-medium text-gray-400 "
+                                    className="block px-3 py-2 rounded-md text-base text-gray-400 "
                                 >
                                     Settings
                                 </Disclosure.Button>
                                 <Disclosure.Button
                                     as="a"
                                     href="#"
-                                    className="block px-3 py-2 rounded-md text-base font-medium text-gray-400 "
+                                    className="block px-3 py-2 rounded-md text-base text-gray-400 "
                                 >
                                     Sign out
                                 </Disclosure.Button>

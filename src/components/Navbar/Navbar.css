@@ -5,3 +5,7 @@
 .logo-text>span {
     color: #3772FF;
 }
+
+.custom-hover_color:hover {
+    color: #ffffff;
+}

@@ -4,6 +4,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { coinsSelector, fetchCoins } from './features/crypto/cryptoSlice';
 import Home from './pages/Home/Home';
 import Navbar from './components/Navbar/Navbar';
+import Hero from './components/Hero/Hero';
 
 function App() {
   const dispatch = useDispatch()
@@ -29,6 +30,7 @@ function App() {
   return (
     <>
       <Navbar />
+      <Hero />
       {/* {renderCoins()} */}
     </>
   );
